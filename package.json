@@ -1,0 +1,35 @@
+{
+  "name": "collectiontracker",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "cross-env NODE_ENV=production electron-builder",
+    "publish": "electron-builder --publish always"
+  },
+  "keywords": [],
+  "author": "Jared Taylor",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.3.1"
+  },
+  "build": {
+  "appId": "com.jaredtaylor.collectiontracker",
+  "productName": "Collection Tracker",
+  "copyright": "© 2025 Jared Taylor",
+  "asar": true,
+  "compression": "maximum",
+  "directories": {
+    "output": "dist"
+  },
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "vaei",
+      "repo": "CollectionTracker",
+      "private": true
+    }
+  ],
+
+}
