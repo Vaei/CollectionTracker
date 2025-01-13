@@ -10,6 +10,13 @@
   "keywords": [],
   "author": "Jared Taylor",
   "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaei/CollectionTracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vaei/CollectionTracker/issues"
+  },
   "description": "",
   "devDependencies": {
     "electron": "^33.3.1"
